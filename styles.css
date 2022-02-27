@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  height: 3000px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header, navbar */
+
+.bg-black {
+  background-color: black;
+}
+.header-navbar a {
+  display: inline-block;
+  width: 150px;
+  font-size: 20px;
+  border-right: 2px solid white;
+  color: white;
+  padding: 5px 10px;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.header-navbar a:hover {
+  color: black;
+  background-color: white;
+}
+
+.flex-item-2:last-child {
+  border-right: none;
+}
+
+.header-navbar img {
+  width: 70px;
+}
+.header-navbar {
+  padding: 15px 100px;
+}
+
+.p-fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+h1 {
+  display: inline-block;
+  color: white;
+  margin-left: 15px;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-item-1 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-item-2 {
+  display: flex;
+  flex: 2;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Banner  */
+
+main {
+  margin-top: 80px;
+}
+.banner {
+  position: relative;
+}
+
+.object-fit {
+  width: 100%;
+  object-fit: contain;
+}
+
+.center {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  display: inline-block;
+}
+
+h3 {
+  display: inline-block;
+  margin: 0;
+}
