@@ -10,7 +10,7 @@
   </head>
   <body>
     <!-- NAVIGATION -->
-    <header class="p-fixed">
+    <header class="p-fixed" id="pocetna">
       <nav class="flexbox-container bg-black header-navbar">
         <!-- navigation-logo and name -->
         <section class="flex-item-1">
@@ -24,13 +24,19 @@
 
         <!-- navigation-links -->
         <nav class="flex-item-2">
-          <a href="" class="link">Početna</a>
+          <a href="index.html" class="link">Početna</a>
 
-          <a href="" class="link">Specifikacije</a>
+          <a href="#specifikacije" class="link">Specifikacije</a>
 
           <a href="" class="link">Usporedi</a>
 
-          <a href="" class="link no-right-border">O nama</a>
+          <a
+            href="https://mi.hr/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link no-right-border"
+            >O nama</a
+          >
         </nav>
       </nav>
     </header>
@@ -51,7 +57,7 @@
       </section>
 
       <!-- SPECIFICATION-->
-      <article class="specifikacije">
+      <article class="specifikacije" id="specifikacije">
         <!-- Specifikacije mobitela-header -->
         <header>
           <h2>SPECIFIKACIJE</h2>
@@ -144,14 +150,14 @@
 
         <!-- Specifikacije mobitela-cijena mobitela -->
         <article class="price flexbox-container">
-          <img src="slike\xiaomi-11t-pro-black.png" alt="" width="500px" />
-          <section>
-            <section>
+          <img src="slike\xiaomi-11t-pro-black.png" alt="" width="550px" />
+          <section class="price__flex">
+            <section class="lightblue__hover price__padding">
               <h4>Xiaomi 11T 8+128 GB Meteorite Gray</h4>
               <p class="price__orange-text">3.799,00 kn</p>
             </section>
 
-            <section class="price__margin">
+            <section class="price__padding lightblue__hover">
               <h4>Xiaomi 11T 8+256 GB Meteorite Gray</h4>
               <p class="price__orange-text">4.299,00 kn</p>
             </section>
@@ -172,6 +178,14 @@
                 <div class="phone-color-gray__bg"></div>
               </span>
             </section>
+
+            <a
+              href="https://mi.hr/xiaomi-11t"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="price-buy__link"
+              >BUY
+            </a>
           </section>
         </article>
       </article>
@@ -187,7 +201,7 @@
             href="https://www.instar-informatika.hr/mobitel-samsung-galaxy-a52s-5g-65-1080x2400px-120hz-octa-core-24ghz-6gb-ram-128gb-memorija-dual-sim-/INS-58562/product/?utm_source=nabava.net&utm_campaign=nabava.net&utm_medium=click"
             target="_blank"
             rel="noopener noreferrer"
-            class="comparison-first"
+            class="comparison-first lightblue__hover"
           >
             <span class="comparison-picture-first"> </span>
 
@@ -201,7 +215,7 @@
             href="https://www.links.hr/hr/smartphone-oneplus-nord-2-5g-6-43-8gb-128gb-android-11-plava-0401001063"
             target="_blank"
             rel="noopener noreferrer"
-            class="comparison-second"
+            class="comparison-second lightblue__hover"
           >
             <span class="comparison-picture-second"> </span>
 
