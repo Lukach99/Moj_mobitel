@@ -241,17 +241,43 @@ h3 {
   padding-right: 50px;
 }
 
+.price__flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .price h4 {
   font-size: 25px;
   font-weight: 400;
+  margin-top: 0;
 }
 
 .price__margin {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
+}
+
+.price__padding {
+  padding: 10px 15px;
 }
 
 .phone-color__heading {
   font-size: 18px;
+}
+
+.price-buy__link {
+  padding: 10px 100px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  background-color: #ff6700;
+  transition: all 0.2s ease;
+}
+
+.price-buy__link:hover {
+  background-color: black;
 }
 
 .phone-color-blue__bg {
@@ -299,7 +325,7 @@ h3 {
   gap: 100px;
 }
 
-.comparison-first:hover {
+.lightblue__hover:hover {
   background-color: #0094e927;
 }
 
