@@ -85,6 +85,10 @@ main {
 }
 .banner {
   position: relative;
+  height: 500px;
+  background-image: url("slike/xiaomi-11t-series-header.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .object-fit {
