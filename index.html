@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles\responsive_phone.css" />
+
     <link rel="shortcut icon" href="favicon\favicon.ico" type="image/x-icon" />
     <title>Moj Mobitel</title>
   </head>
-  <body>
+  <body class="responsive-phone__flex">
     <!-- NAVIGATION -->
     <header class="p-fixed" id="pocetna">
       <nav class="flexbox-container bg-black header-navbar">
@@ -48,12 +50,6 @@
         <header class="center">
           <h2 class="text-shadow">XIAOMI 11T</h2>
         </header>
-
-        <img
-          src="slike\xiaomi-11t-series-header.jpg"
-          alt=""
-          class="object-fit"
-        />
       </section>
 
       <!-- SPECIFICATION-->
@@ -83,13 +79,13 @@
           </span>
 
           <section class="inline-block spec-1-flex">
-            <span class="spec-1 storage-img">
+            <span class="spec-1 storage-img responsive-hide">
               <p class="gradient-text">
                 8GB RAM + <br />
                 128GB Storage
               </p>
             </span>
-            <span class="spec-1 storage-img">
+            <span class="spec-1 storage-img responsive-hide">
               <p class="gradient-text">Dvostruki zvučnici</p>
             </span>
             <span class="spec-1 no-down-border camera-img">
@@ -150,7 +146,12 @@
 
         <!-- Specifikacije mobitela-cijena mobitela -->
         <article class="price flexbox-container">
-          <img src="slike\xiaomi-11t-pro-black.png" alt="" width="550px" />
+          <img
+            src="slike\xiaomi-11t-pro-black.png"
+            alt=""
+            width="550px"
+            class="price-phone__width"
+          />
           <section class="price__flex">
             <section class="lightblue__hover price__padding">
               <h4>Xiaomi 11T 8+128 GB Meteorite Gray</h4>
@@ -205,7 +206,7 @@
           >
             <span class="comparison-picture-first"> </span>
 
-            <section>
+            <section class="similar-phones__properties">
               <h4>Samsung Galaxy A52s 5G</h4>
               <p class="price__orange-text">2.999,00 kn</p>
             </section>
@@ -219,7 +220,7 @@
           >
             <span class="comparison-picture-second"> </span>
 
-            <section>
+            <section class="similar-phones__properties">
               <h4>ONEPLUS NORD 2 5G</h4>
               <p class="price__orange-text">3.449,00 kn</p>
             </section>
